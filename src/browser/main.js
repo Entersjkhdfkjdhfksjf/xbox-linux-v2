@@ -138,7 +138,7 @@
                 settings.fda = { buffer: floppy_file };
             }
 
-            var cd_file = $("cd_image").files[0];
+            var cd_file = "test.iso";
             if(cd_file)
             {
                 last_file = cd_file;
